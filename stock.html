@@ -28,19 +28,31 @@
       font-size: 90%;
     }
   </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 </head>
 
 <body>
-  <header>
-    <h1>TROK igual que TREK pero mas barato</h1>
+  <header class="jumbotron jumbotron-fluid">
+    <h1 class="display-4">TROK</h1>
+    <p class="lead">igual que TREK pero mas barato.</p>
   </header>
 
   <nav>
-    <a href="init.html">Inicio</a> |
-    <a href="about.html">Nosotros</a> |
-    <a href="contact.html">Contacto</a> |
-    <a href="login.html">login</a>
-
+    <ul class="nav nav-pills nav-justified">
+      <li class="nav-item">
+        <a class="nav-link " href="init.html">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">Nosotros</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contacto</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="login.html">login</a>
+      </li>
+    </ul>
+  
   </nav>
 
   <main>
@@ -188,8 +200,7 @@
               </tr>
               <tr>
                 <th>Brake Caliper</th>
-                <td class="active">
-                  SHIMANO BR-MT201 </td>
+                  <td> SHIMANO BR-MT201 </td> 
               </tr>
               <tr>
                 <th>Rotor</th>
@@ -198,7 +209,7 @@
               </tr>
             </tbody>
           </table>
-        </article>git
+        </article>
       <article class="bicicletas">
         <h2>SYNCLINE C5</h2>
         <picture>
@@ -258,7 +269,6 @@
               </tr>
               <tr>
                 <th>Brake Lever</th>
-                <td class="active">
                 <td> MT400 HYDRAULIC DISC BRAKE </td>
               </tr>
               <tr>
