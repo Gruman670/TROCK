@@ -19,10 +19,28 @@
         .browser {
           background: white;
         }
+        footer {
+          background: black;
+          margin-top: 50px;
+          color:#fff
+        }
+        h5 {
+          margin-top: 50px;
+          color:#fff
+        }
         
         .browser > h2, p {
           margin: 4px;
           font-size: 90%;
+        }
+
+        picture {
+        display: flex;
+        align-items: center;
+        width: 600px;
+        height:600px;
+        }
+
         }
         </style>
           <!-- Bootstrap CSS -->
@@ -31,7 +49,7 @@
 <body>
   <header class="jumbotron jumbotron-fluid">
     <h1 class="display-4">TROK</h1>
-    <p class="lead">igual que TREK pero mas barato.</p>
+    <p class="lead">BICICLETAS EXTREMAS</p>
   </header>
 
 <nav>
@@ -54,14 +72,66 @@
     
 <main>
    <a href="stock.html">ver nuestros productos</a>
+   
 </main>
+
+<article>
+  <picture>
+    <img src="~/source/bici.jpg" alt="bici" style="width:700px;">
+    <img src="~/source/bici2.jpg" alt="bici" style="width:700px;">
+    <img src="~/source/bici3.jpg" alt="bici" style="width:700px;">
+  </picture>
+
+  <iframe width="800" height="500" src="https://www.youtube.com/embed/06qqlxvPa84" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</article>
+
 <aside>
 
 </aside>
+  <footer class="py-5">
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Información de contacto</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Ventas de Articulos de Bicicletas</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">TROK CHILE SPA</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Carlos Valdovinos 1458 SANTIAGO </a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FONO +569 63537619</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">MAIL: trokventas@trok.cl</a></li>
+        </ul>
+      </div>
 
-<footer>
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Productos y servicios</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Productos</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Ofertas</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Novedades</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Politicas de devolucion</a></li>
+          
+        </ul>
+      </div>
 
-</footer>
+      <div class="col-6 col-md-2 mb-3">
+        <h5>SOBRE TROK</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Politicas de despacho</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Terminos y condiciones</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Terminos del servicio</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Politica de reembolso Online</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Club TROK </a></li>
+        </ul>
+      </div>
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p>TROCK 2023. Todos los derechos reservados</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+      </ul>
+    </div>
+  </footer>
 
 </body>
 </html> 
