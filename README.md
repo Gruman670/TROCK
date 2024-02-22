@@ -21,7 +21,7 @@ Robica de Proyecto 1
 
 ## Links
 
-Nos puedes visitar en [Pagina de Trok](https://gruman670.github.io/TROCK/init.html/).
+Nos puedes visitar en [Pagina de Trok](https://gruman670.github.io/TROCK/init.html).
 
 
 ## Bloques de codigo que utilice como base para desarrollar TROK
